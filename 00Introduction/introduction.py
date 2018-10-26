@@ -49,7 +49,11 @@ print(nombre * 3)
 
 
 ### 4. Condiciones ###
-edad = 21
+edad = 20
 
-if edad == 21:
-    print("Puedes entrar")
+if edad < 18:
+    print("No puedes entrar")
+elif edad >= 21:
+    print("Puedes entrar al bar y también puedes beber")
+else:
+    print("Puedes entrar al bar pero no puedes beber");
