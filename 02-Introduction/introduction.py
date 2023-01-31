@@ -33,10 +33,13 @@ x = x * 3 #> 12
 z = 19/2         # float
 a = "Hola mundo" # string
 
-desayuno = "Huevos con tocino"
-x = x + y
+desayuno = "Huevos con jamón"
 
+# asignar variables a variables
+x = x + y 
+# cambio de tipo de variables
 x = "sandwich"
+x = desayuno
 
 
 ### 3. Cadenas ###
