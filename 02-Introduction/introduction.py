@@ -67,10 +67,10 @@ print(nombre * 3)
 
 
 ### 21. Condiciones ###
-edad = 20
+edad = 21
 
 # if edad == 21:
-#     print("Puedes entrar")
+#     print("Puedes entrar al bar")
 # print("y también puedes beber")
 
 if edad < 18:
