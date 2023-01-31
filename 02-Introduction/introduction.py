@@ -102,7 +102,7 @@ checar_entrada(edad)
 checar_entrada(edad_2)
 
 
-### 6. Objetos ###
+### 24. Objetos ###
 print("este es un objeto string".upper())
 
 
