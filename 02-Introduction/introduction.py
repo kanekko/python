@@ -2,7 +2,7 @@
 print("Hola mundo")
 
 
-### 1. Números y operadores aritméticos ###
+### 13. Números y operadores aritméticos ###
 2 + 2
 20 - 10
 2 * 9
@@ -11,9 +11,10 @@ print("Hola mundo")
 8 + 2 * 10
 (8 + 2) * 10
 
-19/2 #9.5
-19//2 #9
+19 / 2 #9.5
+19 // 2 #9
 
+2 * 2 * 2 * 2 * 2 # 32
 2 ** 5 # 2^5
 
 
