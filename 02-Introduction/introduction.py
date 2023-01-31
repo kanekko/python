@@ -81,7 +81,7 @@ else:
     print("Puedes entrar al bar pero no puedes beber")
 
 
-### 5. Funciones ###
+### 23. Funciones ###
 def pedir_pizza():
     print("Pedir pizza")
 
