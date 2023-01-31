@@ -42,16 +42,24 @@ x = "sandwich"
 x = desayuno
 
 
-### 3. Cadenas ###
+### 16. Cadenas ###
+#> "Canek"
 # nombre = "Canek"
 nombre = 'Canek'
 
-# frase = "Ella me dijo: 'Hola'"
-# frase = 'Ella me dijo: "Hola"'
-# frase = "Ella me dijo: \"Hola\""
-# frase = 'Ella me dijo: \'Hola\''
-frase = "Ella me dijo: \n\"Hola\""
+# frase = "Ella me dijo: "Hola" "
 
+# frase = "Ella me dijo: 'Hola' "
+# frase = 'Ella me dijo: "Hola" '
+
+# secuencia de escape:
+# frase = "Ella me dijo: \"Hola\" "
+# frase = 'Ella me dijo: \'Hola\' '
+
+frase = "Ella me dijo: \n\"Hola\""
+print(frase)
+
+# concatenar cadenas:
 saludo = "Hola"
 print(saludo + " " + nombre)
 
