@@ -66,8 +66,12 @@ print(saludo + " " + nombre)
 print(nombre * 3)
 
 
-### 4. Condiciones ###
+### 21. Condiciones ###
 edad = 20
+
+# if edad == 21:
+#     print("Puedes entrar")
+# print("y también puedes beber")
 
 if edad < 18:
     print("No puedes entrar")
