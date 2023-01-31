@@ -133,3 +133,22 @@ lista_2.extend([7,8]) # [1,2,3,4,5,6,7,8]
 
 lista_2.remove(8) # [1,2,3,4,5,6,7]
 lista_2.remove(4) # [1,2,3,5,6,7]
+
+# método list()
+list([1,2,3,4,5])
+list("canek")
+
+
+### 26. Split and Join ###
+"canek".split()
+"Python es genial".split()
+
+comida_favorita = "hamburgesa,tacos,pizza"
+comida_favorita.split(",")
+
+lista_comida_favorita = ['hamburgesa','tacos','pizza']
+", ".join(lista_comida_favorita)
+",".join(lista_comida_favorita)
+"-".join(lista_comida_favorita)
+
+"Mi comida favorita es: " + ", ".join(lista_comida_favorita)
