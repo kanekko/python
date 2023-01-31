@@ -11,21 +11,27 @@ print("Hola mundo")
 8 + 2 * 10
 (8 + 2) * 10
 
-19 / 2 #9.5
-19 // 2 #9
+19 / 2  # 9.5
+19 // 2 # 9
 
 2 * 2 * 2 * 2 * 2 # 32
-2 ** 5 # 2^5
+2 ** 5            # 2^5
 
 
-### 2. Variables ###
+### 14. Variables ###
 x = 2
-y = 6 ** 3
-x + 2
-x = x + 2
-x = x * 3
-z = 19/2
-a = "Hola mundo"
+y = 2 ** 5
+
+x + 2 #> 4
+      #> x > 2
+
+# asignación
+x = x + 2 #> 4
+x = x * 3 #> 12
+
+# tipos de datos
+z = 19/2         # float
+a = "Hola mundo" # string
 
 desayuno = "Huevos con tocino"
 x = x + y
