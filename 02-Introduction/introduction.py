@@ -60,7 +60,6 @@ else:
 
 
 ### 5. Funciones ###
-
 def pedir_pizza():
     print("Pedir pizza")
 
@@ -79,3 +78,30 @@ edad   = 21
 edad_2 = 17
 checar_entrada(edad)
 checar_entrada(edad_2)
+
+
+### 6. Objetos ###
+print("este es un objeto string".upper())
+
+
+### 7. Listas ###
+[1,2,3,4,5]
+
+lista = [1,2,3,4,5]
+
+lista + [5,6]
+lista = lista + [6,7]
+lista += [8,9]
+lista * 5
+
+lista.append(10)
+lista.append('canek')
+lista.append([1,2,3])
+
+
+lista_2 = [1,2,3,4,5]
+
+lista_2.append(6)
+lista_2.extend([7,8])
+lista_2.remove(8)
+lista_2.remove(4)
