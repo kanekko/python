@@ -152,3 +152,23 @@ lista_comida_favorita = ['hamburgesa','tacos','pizza']
 "-".join(lista_comida_favorita)
 
 "Mi comida favorita es: " + ", ".join(lista_comida_favorita)
+
+
+
+### 30. Ciclos ###
+manzanas = 10
+
+while manzanas>0:
+    print('Me estoy comiendo la manzana #' + str(manzanas))
+    manzanas -= 1
+print('Me quede sin manzanas')
+
+
+lista_numeros = [1,2,3,4,5,6,7,8,9,10]
+
+for numero in lista_numeros:
+    # if numero > 5:
+    #     break
+    # if numero == 5:
+    #     continue
+    print(numero)
