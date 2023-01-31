@@ -106,24 +106,30 @@ checar_entrada(edad_2)
 print("este es un objeto string".upper())
 
 
-### 7. Listas ###
+### 25. Listas ###
 [1,2,3,4,5]
 
 lista = [1,2,3,4,5]
 
+# concatenar listas:
 lista + [5,6]
+
 lista = lista + [6,7]
 lista += [8,9]
+
 lista * 5
 
 lista.append(10)
 lista.append('canek')
+
+# lista de listas:
 lista.append([1,2,3])
 
 
 lista_2 = [1,2,3,4,5]
+lista_2.append(6) # [1,2,3,4,5,6]
 
-lista_2.append(6)
-lista_2.extend([7,8])
-lista_2.remove(8)
-lista_2.remove(4)
+lista_2.extend([7,8]) # [1,2,3,4,5,6,7,8]
+
+lista_2.remove(8) # [1,2,3,4,5,6,7]
+lista_2.remove(4) # [1,2,3,5,6,7]
