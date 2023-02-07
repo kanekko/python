@@ -208,6 +208,31 @@ del vocales
 del lista_vocales
 
 
+### 29. in ###
+vocales = "aeiou"
+lista_vocales = list(vocales)
+
+"a" in vocales # True
+"z" in vocales # False
+
+"a" in lista_vocales # True
+"z" in lista_vocales # False
+
+if "a" in vocales:
+    print("a es una vocal")
+
+if "z" not in vocales:
+    print("z no es una vocal")
+
+if "a" in lista_vocales:
+    print("a esta en la lista de vocales")
+
+
+
+
+
+
+
 
 
 ### 30. Ciclos ###
