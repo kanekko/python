@@ -278,11 +278,19 @@ dia_del_mes + 1
 
 
 ### 33. Excepciones ###
+numero_a = int(input("Dame un número: "))
+numero_b = int(input("Dame otro número: "))
+numero_c = numero_a + numero_b
+print("La suma es: " + str(numero_c))
 
-
-
-
-
+try:
+    a = int(input("Dame un número: "))
+    b = int(input("Dame otro número: "))
+except ValueError:
+    print("Número inválido")
+else:
+    c = a + b
+    print("La suma es: " + str(c))
 
 
 
