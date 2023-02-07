@@ -270,11 +270,16 @@ while contador < 5:
 input("¿Qué día del mes es hoy?")
 
 # input siempre regresa una cadena
-dia_del_mes = input("¿Qué día del mes es hoy?")
+dia_del_mes = input("¿Qué día del mes es hoy? ")
 
 # conversión de cadena a número:
-int(dia_del_mes)
+dia_del_mes = int(dia_del_mes)
 dia_del_mes + 1 
+
+
+### 33. Excepciones ###
+
+
 
 
 
