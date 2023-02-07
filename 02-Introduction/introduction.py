@@ -254,4 +254,19 @@ for numero in lista_numeros:
     # print(numero)
 
 
+### 31. Reto Ciclos ###
+vocales = "aeiou"
+
+for vocal in vocales:
+    print(vocal.upper())
+
+contador = 0
+while contador < 5:
+    print(vocales[contador].upper())
+    contador += 1
+
+
+
+
+
 
