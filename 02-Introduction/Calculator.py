@@ -23,6 +23,10 @@ while True:
 
     try:
         opcion = int(input('Introduce el número de operación que quieres realizar: '))
+        if opcion < 1 or opcion > 4:
+            print('Número de operación inválida\n')
+            continue
+
         numero_a = int(input('Introduce el primer número: '))
         numero_b = int(input('Introduce el segu1ndo número: '))
     except ValueError:
@@ -32,6 +36,7 @@ while True:
         print('El resultado es: ' + str(numero_c))
         
         continuar = input("¿Deseas continuar? [si/no] ")
+        print('\n\n')
         # if continuar == "no":
         if continuar != "si":
             break
