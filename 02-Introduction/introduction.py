@@ -187,6 +187,26 @@ alfabeto_lista[26] # z
 alfabeto[-1]       # z
 
 
+### 28. del ###
+vocales = "aeiou"
+lista_vocales = list(vocales)
+
+# borrar variables:
+variable_basura = "Variable basura"
+del variable_basura
+
+# borrar elementos de listas:
+del lista_vocales[0]  # ['e', 'i', 'o', 'u']
+del lista_vocales[-1] # ['e', 'i', 'o']
+
+# error: las cadenas son inmutables
+#del vocales[0]
+# alrternativa, usar estructuras auxiliares: 
+"".join(lista_vocales)
+
+del vocales
+del lista_vocales
+
 
 
 
