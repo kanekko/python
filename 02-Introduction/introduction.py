@@ -228,27 +228,30 @@ if "a" in lista_vocales:
     print("a esta en la lista de vocales")
 
 
-
-
-
-
-
-
-
 ### 30. Ciclos ###
 manzanas = 10
 
-while manzanas>0:
-    print('Me estoy comiendo la manzana #' + str(manzanas))
+while manzanas > 0:
+    print("Me estoy comiendo la manzana #" + str(manzanas))
     manzanas -= 1
-print('Me quede sin manzanas')
+print("Me quede sin manzanas")
 
 
 lista_numeros = [1,2,3,4,5,6,7,8,9,10]
+# lista_numeros = [1,"canek",3,4,5,6,7,8,9,10]
 
 for numero in lista_numeros:
+    print(numero)
+    
+    # romper el ciclo en 5:
     # if numero > 5:
     #     break
+    # print(numero)
+    
+    # omitir la iteración 5:
     # if numero == 5:
     #     continue
-    print(numero)
+    # print(numero)
+
+
+
