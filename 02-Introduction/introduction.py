@@ -156,8 +156,35 @@ lista_comida_favorita = ['hamburgesa','tacos','pizza']
 "Mi comida favorita es: " + ", ".join(lista_comida_favorita)
 
 
+### 27. Indices ###
+alfabeto = "abcdefghijklmnñopqrstuvwxyz"
+alfabeto_lista = list(alfabeto)
 
+# saber el indice un elemento de la lista
+alfabeto_lista.index("a") # 0
+alfabeto_lista.index("b") # 1
+alfabeto_lista.index("c") # 2
+alfabeto_lista.index("z") # 26
 
+alfabeto.index("a") # 0
+alfabeto.index("b") # 1
+
+# errores:
+#alfabeto.index(1)
+#alfabeto.index("$")
+#alfabeto_lista.index("%")
+
+# buscar elementos en la cadena:
+alfabeto.index("bc") # 1
+
+# buscar elementos en determinada posición:
+alfabeto[10]       # k
+alfabeto_lista[10] # k
+
+# se pueden tener indices negativos:
+alfabeto_lista[-1] # z
+alfabeto_lista[26] # z
+alfabeto[-1]       # z
 
 
 
